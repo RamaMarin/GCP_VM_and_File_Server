@@ -1,4 +1,42 @@
+# File Server API
 
+A secure REST API for file management using Google Cloud Storage with Flask.
+
+## 📋 Description
+
+This project implements a file server API that allows users to upload, download, list, and delete files stored in Google Cloud Storage. The API includes authentication, rate limiting, and comprehensive security features.
+
+## 🚀 Features
+
+- **File Operations**: Upload, download, list, and delete files
+- **Security**: API key authentication with permission-based access control
+- **Rate Limiting**: Prevents API abuse with configurable limits
+- **Cloud Storage**: Files stored securely in Google Cloud Storage
+- **File Validation**: Type checking and secure filename handling
+- **Pagination**: Efficient file listing with pagination support
+- **Health Monitoring**: Health check endpoint for monitoring
+
+## 🛠️ Technologies Used
+
+- **Backend**: Flask (Python web framework)
+- **Cloud Storage**: Google Cloud Storage
+- **Authentication**: Custom API key system
+- **Rate Limiting**: Flask-Limiter
+- **Environment**: Python virtual environment
+- **Security**: Werkzeug security utilities
+
+## 📦 Installation
+
+### Prerequisites
+
+- Python 3.7+
+- Google Cloud account with Storage API enabled
+- Google Cloud credentials file
+
+### Setup Steps
+
+1. **Clone or create the project directory**
+   ```bash
    mkdir file-server-project
    cd file-server-project
    ```
